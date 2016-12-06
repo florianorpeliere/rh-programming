@@ -74,13 +74,7 @@ input[type="checkbox"] {
 	position: absolute;
 	top: -155px;
 	width: 100%;
-	font-size: 100px;
 	font-weight: 100;
-	text-align: center;
-	color: rgba(175, 47, 47, 0.15);
-	-webkit-text-rendering: optimizeLegibility;
-	-moz-text-rendering: optimizeLegibility;
-	text-rendering: optimizeLegibility;
 }
 
 .new-todo,
@@ -150,8 +144,6 @@ label[for='toggle-all'] {
 
 .todo-list li {
 	position: relative;
-	font-size: 24px;
-	border-bottom: 1px solid #ededed;
 }
 
 .todo-list li:last-child {
