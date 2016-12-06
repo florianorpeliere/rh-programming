@@ -17,7 +17,7 @@ Dans le ficher rh.css, vous devez réaliser :
 * Compléter la règle `.todoapp h1` afin d'avoir une taille de police de 100px, le texte aligné au milieu et la couleur de votre choix.
 * Ajouter la règle pour la classe `todo-list` suivi d'un `li` pour obtenir une taille de police de 24px, une bordure de 1px solid de la couleur que vous souhaitez. Vous pouvez aussi customiser le background ;).
 
-Si vous souhaitez voir, ajouter le code suivant dans votre liste(<ul>).
+Si vous souhaitez voir, ajouter le code suivant dans votre liste ( ul ).
 
 ```html
 <li>
@@ -28,6 +28,7 @@ Si vous souhaitez voir, ajouter le code suivant dans votre liste(<ul>).
   </div>
 </li>
 ```
+
 ## JS
 
 Alors là, les choses se compliquent ...
