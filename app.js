@@ -37,7 +37,7 @@
     A vous de jouer !
 
     Récupérer l'élement portant la classe .todo-list
-    Pensez à utiliser document qui représente votre HTML
+    Pensez à utiliser l'objet document qui représente votre HTML
     Pensez à utiliser la fonction querySelector qui représente la façon de demander un élément à votre document
   */
   var list = //Hey, codez moi !
@@ -58,12 +58,15 @@
       Ici c'est à vous de jouer, vous devez ajouter un nouveau todo dans le tableau de todos
       Pensez à utiliser la méthode push
       Et le tableau s'appele listTodos
+      Ajoutez un élément comme expliqué au début :)
     */
 
     //Hey, codez moi !
 
     /*
       On efface ce qu'il y a d'écrit dans l'input
+      Ben oui, sinon l'utilisateur il va raler :D
+      Si vous voulez tester, enlevez cette ligne ;)
     */
     nouveauTodoData.value = '';
 
@@ -80,7 +83,7 @@
   function afficher () {
     /*
       Ici j'efface toute la liste HTML.
-      Je prends l'élément list que nous avions récupérer.
+      Je prends l'élément list que nous avions récupérer au début du fichier.
     */
     list.innerHTML = '';
     /*
@@ -88,6 +91,7 @@
       A vous de compléter cette boucle
     */
     for (/* Hey, codez moi */) {
+
       /*
         Ici c'est une fonction un peu compliquer.
         Elle permet de créer un élement HTML
@@ -104,8 +108,8 @@
       todo.querySelector('.destroy').addEventListener('click', supprimerUnTodo);
 
       /*
-        Ajouter l'element dans la liste HTML (attention pas dans le tableau ;) )
-        Pensez à utiliser la fonction appendChild
+        Ajouter l'element dans la liste HTML (votre <ul>) (attention pas dans le tableau ;) )
+        Pensez à utiliser la fonction appendChild avec l'objet list
         Pensez à utiliser l'objet todo créer juste au dessus
       */
 
@@ -128,7 +132,7 @@
       On s'embête beaucoup ici :D
       Mais on récupére l'élement cliqué, puis on remonte jusqu'à la balise <li>
       qui représente le todo afin de récupérer son identifiant
-      Cette identifiant permet de faire la relation entre ce que vous voyez
+      Cet identifiant permet de faire la relation entre ce que vous voyez
       et l'élement dans votre tableau.
     */
     var checkbox = event.target;
@@ -153,7 +157,7 @@
       On s'embête beaucoup ici :D
       Mais on récupére l'élement cliqué, puis on remonte jusqu'à la balise <li>
       qui représente le todo afin de récupérer son identifiant
-      Cette identifiant permet de faire la relation entre ce que vous voyez
+      Cet identifiant permet de faire la relation entre ce que vous voyez
       et l'élement dans votre tableau.
     */
     var checkbox = event.target;
