@@ -1,5 +1,4 @@
-(function () {
-	'use strict';
+
   /*
     Bonjour et bienvenue dans cette session de Programming pour les RH :)
     J'espère que vous allez apprécier cette petite expérience avec votre pair !
@@ -29,18 +28,16 @@
       completed: false
     }
 
+    A vous de jouer !
+
+    Créer un tableau vide
   */
-  var listTodos = [];
+  var listTodos = //Hey, codez moi !
 
   /*
     Ici ça représente l'élement HTML contenant les todos à afficher.
-    A vous de jouer !
-
-    Récupérer l'élement portant la classe .todo-list
-    Pensez à utiliser l'objet document qui représente votre HTML
-    Pensez à utiliser la fonction querySelector qui représente la façon de demander un élément à votre document
   */
-  var list = //Hey, codez moi !
+  var list = document.querySelector('.todo-list');
 
   /*
     Cette fonction permet d'ajouter un todo à votre tableau de todos
@@ -249,5 +246,3 @@
       </div>`;
     return todoLi;
   }
-
-})();
