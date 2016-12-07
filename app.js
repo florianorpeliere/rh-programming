@@ -2,7 +2,7 @@
 	'use strict';
   /*
     Bonjour et bienvenue dans cette session de Programming pour les RH :)
-    J'esppère que vous allez apprécier cette petite expérience avec votre pair !
+    J'espère que vous allez apprécier cette petite expérience avec votre pair !
 
     # Comment ça marche
 
@@ -14,12 +14,12 @@
   */
 
   /*
-    Ici, c'est vos donnés.
+    Ici, c'est vos données.
     listTodos représente l'ensemble des todos à afficher.
-    C'est un tableau contenant des éléments représentant un todo
-    Un todo est représenté comme suis
+    C'est un tableau contenant des éléments représentant un todo.
+    Un todo est représenté comme suit :
 
-    c'est un objet qui a un label (qui est une chaîne de caractères) et une valeur completed
+    C'est un objet qui a un label (qui est une chaîne de caractères) et une valeur completed
     pour savoir s'il est complété ou non.
 
     Exemple :
@@ -49,15 +49,15 @@
   */
   function ajouterUnTodo() {
     /*
-      Ici nous allons récupérer ce qu'il y a d'écrit dans l'input text
-      C'est la donnée de notre todo
+      Ici nous allons récupérer l'élément qui contient la donnée de notre todo
+      Il s'agit de l'input text
     */
-    var nouveauTodoData = document.querySelector('.new-todo').value;
+    var nouveauTodoData = document.querySelector('.new-todo');
 
     /*
       Ici c'est à vous de jouer, vous devez ajouter un nouveau todo dans le tableau de todos
       Pensez à utiliser la méthode push
-      Et le tableau s'appele listTodos
+      Le tableau s'appele listTodos
       Ajoutez un élément comme expliqué au début :)
     */
 
@@ -83,7 +83,7 @@
   function afficher () {
     /*
       Ici j'efface toute la liste HTML.
-      Je prends l'élément list que nous avions récupérer au début du fichier.
+      Je prends l'élément list que nous avions récupéré au début du fichier.
     */
     list.innerHTML = '';
     /*
@@ -93,7 +93,7 @@
     for (/* Hey, codez moi */) {
 
       /*
-        Ici c'est une fonction un peu compliquer.
+        Ici c'est une fonction un peu compliquée.
         Elle permet de créer un élement HTML
         Vous pouvez demander à votre Pair de vous expliquer
       */
@@ -108,9 +108,9 @@
       todo.querySelector('.destroy').addEventListener('click', supprimerUnTodo);
 
       /*
-        Ajouter l'element dans la liste HTML (votre <ul>) (attention pas dans le tableau ;) )
+        Ajoutez l'élément dans la liste HTML (votre <ul>) (attention pas dans le tableau ;) )
         Pensez à utiliser la fonction appendChild avec l'objet list
-        Pensez à utiliser l'objet todo créer juste au dessus
+        Pensez à utiliser l'objet todo créé juste au-dessus
       */
 
       //Hey, codez moi !
@@ -142,8 +142,8 @@
     /*
       Ici vous devez cocher ou décocher votre todo.
       Vous devez donc "inverser" la valeur de completed
-      Demander à votre Pair de vous expliquer la notion de boolean
-      Et inverser là :)
+      Demandez à votre Pair de vous expliquer la notion de boolean
+      Et inversez là :)
     */
 
     //Hey, codez moi !
@@ -168,7 +168,7 @@
       Ici vous devez retirer un élément de votre tableau.
       Vous avez sa "place" dans le tableau grâce à id
       A vous de jouer :)
-      Pensez à utiliser splice (demander à votre Pair)
+      Pensez à utiliser splice (demandez à votre Pair)
       Pensez à utiliser listTodos
     */
 
